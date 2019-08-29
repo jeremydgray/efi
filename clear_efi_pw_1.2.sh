@@ -3,11 +3,11 @@
 # clear_EFI_pw_1.2.sh
 # jeremy gray, Omada Health, 2019
 # 
-# a script to remove a known EFI password. this will check for a default password set in $4 of the Jamf policy, a password stored in pwFile.txt, and a password you give at a prompt. 
+# a script to remove a known EFI password. this will check for a default password set in $4 of the Jamf policy, a password stored in pwFile.txt, and a password you provide at a prompt. 
 # 
 # all three options are tested, and if one is verified, it will be cleared.
 #
-# disclaimer: i'm providing this scripts as-is, and don't have bandwidth to offer support or updates. 
+# disclaimer: i'm providing these scripts as-is, and don't have bandwidth to offer support or updates. 
 #============================
 
 #--------- Exit codes
@@ -18,7 +18,7 @@
 # 6: generic error
 
 #--------- Declare some vars
-logfile="/Library/Logs/OmadaIT/JamfEFI.log"
+logfile="/Library/Logs/[YourOrgHere]/JamfEFI.log"
 EFIVerified=""
 EFIisSet=0
 

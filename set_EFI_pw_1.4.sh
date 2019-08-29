@@ -9,9 +9,9 @@
 #
 # use this script during deployment and also in Self Service to allow for arbitrary EFI rotation as needed.
 #
-# bonus points: create a Jamf Extension Attribute using efi_extension_attribute.sh to collect EFIs into JSS.
+# bonus points: create a Jamf Extension Attribute using efi_extension_attribute.sh to collect EFIs into your JSS.
 #
-# disclaimer: i'm providing this scripts as-is, and don't have bandwidth to offer support or updates. 
+# disclaimer: i'm providing these scripts as-is, and don't have bandwidth to offer support or updates. 
 #============================
 
 #--------- Exit codes
@@ -26,7 +26,7 @@
 EFIVerified=""
 newEFIpw=""
 EFIisSet=0
-logfile="/Library/Logs/OmadaIT/JamfEFI.log"
+logfile="/Library/Logs/[YourOrgHere]/JamfEFI.log"
 
 #--------- Log function
 function log () {

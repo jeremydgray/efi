@@ -5,7 +5,7 @@
 #
 # a script to capture an EFI password to Jamf Extension Attribute.
 # 
-# disclaimer: i'm providing this scripts as-is, and don't have bandwidth to offer support or updates. 
+# disclaimer: i'm providing these scripts as-is, and don't have bandwidth to offer support or updates. 
 #============================
 
 if [ -d "/Users/administrator/Desktop" ]; then
